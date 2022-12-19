@@ -30,10 +30,10 @@ const { DialogAndWelcomeBot } = require('./bots/dialogAndWelcomeBot');
 
 
 const credentialsFactory = new ConfigurationServiceClientCredentialFactory({
-    MicrosoftAppId: process.env.MicrosoftAppId,
-    MicrosoftAppPassword: process.env.MicrosoftAppPassword,
-    MicrosoftAppType: process.env.MicrosoftAppType,
-    MicrosoftAppTenantId: process.env.MicrosoftAppTenantId
+    MicrosoftAppId: "57fee030-e5ea-448b-854b-4922c7acecd0",
+    MicrosoftAppPassword: "OIA8Q~Q4LiV2BgAt1sh.PyRhsxoPQchgZPhwQcdV",
+    MicrosoftAppType: "SingleTenant",
+    MicrosoftAppTenantId: "358fbb06-91b8-483d-a8d3-007e39fd46a9"
 });
 
 const botFrameworkAuthentication = createBotFrameworkAuthenticationFromConfiguration(null, credentialsFactory);
